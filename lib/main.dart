@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:cash_tree/home_page/home_page_widget.dart';
+import 'package:cash_tree/login/login_widget.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: const [Locale('en', '')],
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePageWidget(),
+      home: LoginWidget(),
     );
   }
 }
